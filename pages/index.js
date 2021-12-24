@@ -1,10 +1,14 @@
 import Head from 'next/head'
+import Search from '@components/Search';
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
   return (
     <div className="container">
+    
+    <Search>
+    
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
