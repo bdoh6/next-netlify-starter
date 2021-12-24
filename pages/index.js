@@ -10,12 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
+      
   <input type="text" placeholder="Search..">
-</div>
+
     
       <main>
         <Header title="Welcome to my movie database!" />
