@@ -13,7 +13,6 @@ export default function Home() {
       <main>
         <Header title="Welcome to my movie database!" />
         <p className="description">
-          <input type="text" placeholder="Search..">
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
