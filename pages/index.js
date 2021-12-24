@@ -12,6 +12,12 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my movie database!" />
+        <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
